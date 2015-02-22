@@ -25,3 +25,21 @@ Data also includes features.txt file which contains the column header names for 
 * The final output dataset will be summarized as average of all 66 observations for each unique combination of subject and activity.
 
 ## Transformation Process
+* Step 1 - Read feature.text files to get variable names 
+* Step 2A - Read x_test file and assign col.names from the file read in step1
+* Step 2B - Read y_test, add a column with activity description corresponding to activities
++ 1 - Walking
++ 2 - Climbing Stairs
++ 3 - Climbing Downstairs
++ 4 - Running
++ 5 - Sitting
++ 6 - Laying
+* Step 2C - Read subject_Test file
+* Step 2D - Merge (cbind) three files transformed in step 2, 3 and 4
+* Step 3 - Repeat step 2A through 2D for training set of files
+* Step 4 - Merge (rbind) files created in step 2D and step 3
+* Step 5A - Use which command to get the indices of subject id and activity description
+* Step 5B - Use sqldf function to find indices of variable names that contain mean or std in the name
+* Step 5C - Use select function to select columns corresponding to indices identified in above 2 steps
+* Step 6 - Use melt and dcast function to slice and summarize data
+* Step 7 - Write the dataset created in step6 into TidyData.txt file using write.table
