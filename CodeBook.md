@@ -33,7 +33,7 @@ Data also includes features.txt file which contains the column header names for 
 	+ 3 - Climbing Downstairs
 	+ 4 - Running
 	+ 5 - Sitting
-+ 6 - Laying
+	+ 6 - Laying
 * Step 2C - Read subject_Test file
 * Step 2D - Merge (cbind) three files transformed in step 2, 3 and 4
 * Step 3 - Repeat step 2A through 2D for training set of files
