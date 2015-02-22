@@ -1,6 +1,6 @@
 ---
 title: "Course Assignment - Desctription"
-output: html_document
+output: pdf_document
 ---
 
 This markdown explains the steps involved in analysing the data and putting together the end resutl, a tidy file.
