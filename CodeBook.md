@@ -1,4 +1,4 @@
-# Course Assignment - Desctription
+# Data, Analysis and Transformation Description - Course Assignment - Getting and Cleaning Data
 
 This markdown explains the steps involved in analysing the data and putting together the end resutl, a tidy file.
 
@@ -21,3 +21,7 @@ Data also includes features.txt file which contains the column header names for 
 * The total count of rows in test set of files is 2947 and the count in  train set of files is 7352
 * There is a total of 561 raw observations for each subject and activity combination.
 * There are 33 variables that are average and same number that are standard deviations 
+* Hence the output file will have total of 68 columns (1 subject id + 1 Activity Description + 33 Average + 33 Std Deviation)
+* The final output dataset will be summarized as average of all 66 observations for each unique combination of subject and activity.
+
+## Transformation Process
