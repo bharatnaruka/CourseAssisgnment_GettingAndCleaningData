@@ -28,11 +28,11 @@ Data also includes features.txt file which contains the column header names for 
 * Step 1 - Read feature.text files to get variable names 
 * Step 2A - Read x_test file and assign col.names from the file read in step1
 * Step 2B - Read y_test, add a column with activity description corresponding to activities
-+ 1 - Walking
-+ 2 - Climbing Stairs
-+ 3 - Climbing Downstairs
-+ 4 - Running
-+ 5 - Sitting
+	+ 1 - Walking
+	+ 2 - Climbing Stairs
+	+ 3 - Climbing Downstairs
+	+ 4 - Running
+	+ 5 - Sitting
 + 6 - Laying
 * Step 2C - Read subject_Test file
 * Step 2D - Merge (cbind) three files transformed in step 2, 3 and 4
