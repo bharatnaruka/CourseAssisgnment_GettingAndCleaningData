@@ -89,4 +89,6 @@ FinalTidyData <- dcast(MeltedData, SubjectID + ActivityDesc ~ variable, mean)
 #################################################################################################################
 write.table(FinalTidyData, "TidyData.txt", row.name=FALSE)
 
+##forked for shweta
+
 
